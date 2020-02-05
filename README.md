@@ -1,4 +1,5 @@
 # COMP371  Computer Graphics  Concordia University
+2017 summer
 
 ## OpenGLProject
 
