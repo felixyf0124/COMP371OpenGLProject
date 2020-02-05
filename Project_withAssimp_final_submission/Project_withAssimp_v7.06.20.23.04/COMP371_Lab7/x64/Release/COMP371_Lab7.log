@@ -1,0 +1,14 @@
+﻿  stdafx.cpp
+  Camera.cpp
+c:\users\felix\google drive\school\2017summer\comp371\project\project_withassimp_v7.06.15.13.45ing\comp371_lab7\Camera.h(6): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+  Mesh.cpp
+Mesh.cpp(115): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  ModelLoader.cpp
+ModelLoader.cpp(244): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Project.cpp
+Project.cpp(5): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+  objloader.cpp
+objloader.cpp(103): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Shader.cpp
+c:\users\felix\google drive\school\2017summer\comp371\project\project_withassimp_v7.06.15.13.45ing\comp371_lab7\Shader.h(6): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+  Generating Code...

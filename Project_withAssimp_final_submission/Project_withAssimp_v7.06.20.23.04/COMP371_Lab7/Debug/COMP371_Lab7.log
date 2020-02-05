@@ -1,0 +1,22 @@
+﻿  stdafx.cpp
+  Shader.cpp
+  objloader.cpp
+  Project.cpp
+c:\users\felix\google drive\school\2017summer\comp371\project\project_withassimp_final_submission\project_withassimp_v7.06.20.23.04\comp371_lab7\project.cpp(120): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\felix\google drive\school\2017summer\comp371\project\project_withassimp_final_submission\project_withassimp_v7.06.20.23.04\comp371_lab7\project.cpp(155): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\felix\google drive\school\2017summer\comp371\project\project_withassimp_final_submission\project_withassimp_v7.06.20.23.04\comp371_lab7\project.cpp(156): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\felix\google drive\school\2017summer\comp371\project\project_withassimp_final_submission\project_withassimp_v7.06.20.23.04\comp371_lab7\project.cpp(633): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\felix\google drive\school\2017summer\comp371\project\project_withassimp_final_submission\project_withassimp_v7.06.20.23.04\comp371_lab7\project.cpp(656): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\felix\google drive\school\2017summer\comp371\project\project_withassimp_final_submission\project_withassimp_v7.06.20.23.04\comp371_lab7\project.cpp(681): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\felix\google drive\school\2017summer\comp371\project\project_withassimp_final_submission\project_withassimp_v7.06.20.23.04\comp371_lab7\project.cpp(705): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\felix\google drive\school\2017summer\comp371\project\project_withassimp_final_submission\project_withassimp_v7.06.20.23.04\comp371_lab7\project.cpp(830): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\felix\google drive\school\2017summer\comp371\project\project_withassimp_final_submission\project_withassimp_v7.06.20.23.04\comp371_lab7\project.cpp(831): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\felix\google drive\school\2017summer\comp371\project\project_withassimp_final_submission\project_withassimp_v7.06.20.23.04\comp371_lab7\project.cpp(832): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Camera.cpp
+  Generating Code...
+soil.lib(image_DXT.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'soil.lib(image_DXT.obj)' or at 'C:\Users\felix\Google Drive\School\2017summer\COMP371\project\Project_withAssimp_final_submission\Project_withAssimp_v7.06.20.23.04\Debug\SOIL.pdb'; linking object as if no debug info
+soil.lib(image_helper.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'soil.lib(image_helper.obj)' or at 'C:\Users\felix\Google Drive\School\2017summer\COMP371\project\Project_withAssimp_final_submission\Project_withAssimp_v7.06.20.23.04\Debug\SOIL.pdb'; linking object as if no debug info
+soil.lib(SOIL.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'soil.lib(SOIL.obj)' or at 'C:\Users\felix\Google Drive\School\2017summer\COMP371\project\Project_withAssimp_final_submission\Project_withAssimp_v7.06.20.23.04\Debug\SOIL.pdb'; linking object as if no debug info
+soil.lib(stb_image_aug.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'soil.lib(stb_image_aug.obj)' or at 'C:\Users\felix\Google Drive\School\2017summer\COMP371\project\Project_withAssimp_final_submission\Project_withAssimp_v7.06.20.23.04\Debug\SOIL.pdb'; linking object as if no debug info
+  COMP371_Lab7.vcxproj -> C:\Users\felix\Google Drive\School\2017summer\COMP371\project\Project_withAssimp_final_submission\Project_withAssimp_v7.06.20.23.04\Debug\COMP371_Lab7.exe
+  COMP371_Lab7.vcxproj -> C:\Users\felix\Google Drive\School\2017summer\COMP371\project\Project_withAssimp_final_submission\Project_withAssimp_v7.06.20.23.04\Debug\COMP371_Lab7.pdb (Full PDB)

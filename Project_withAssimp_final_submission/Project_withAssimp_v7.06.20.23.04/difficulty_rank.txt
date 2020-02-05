@@ -1,0 +1,8 @@
+1. time 
+2. collision detection efficiency (takes a lot of time to cut down unnecessary calculation for collision detection)
+3. *shadow (incompleted, no time to debug & compiling)
+4. object selection identity detection
+5. object movement (based on camera movement & tilting)
+6. collision detection algorithm
+7. suitable texture maping
+8. object loading

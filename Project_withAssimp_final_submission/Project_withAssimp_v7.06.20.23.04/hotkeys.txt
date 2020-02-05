@@ -1,0 +1,22 @@
+	KEYBOARD CONTROL
+--------------------------------------------------
+ESCAPE              close the window
+-----------------------------------------
+SPACE               jump
+-----------------------------------------
+LEFT                move left
+-----------------------------------------
+RIGHT               move right
+-----------------------------------------
+UP                  move forward
+-----------------------------------------
+DOWN                move backward
+-----------------------------------------
+M                   switch camera tilting mode + obj picking enable + disable cursor / cursor enable 
+-----------------------------------------
+
+	MOUSE CONTROL
+--------------------------------------------------
+LEFT BUTTON         picking furnitures at property 2 (completely moveable) 
+			select whatever shown in the center of the screen
+-----------------------------------------

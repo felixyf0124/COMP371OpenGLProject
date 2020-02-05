@@ -1,0 +1,44 @@
+//collision detection
+
+algorithm  collision detection
+	input: glm::vec2 position, 
+		   glm::vec2 point1,
+		   glm::vec2 point2,
+		   // 
+		   // in these theory, we need a non-zero offset or limit for collision detection
+		   // basic theory: if the position is too close to the detection target's edge then collision
+		   // if no extra requirement for offset, like camera edge length (camera.near*cos(fov/2.0f))
+		   // then put a very small value 
+		   GLfloat offset(or limit)
+	
+	output: boolean true (collision detected) || false (no collision)
+	
+	(note that position can be either camera position or object center position;
+		since no need to consider collision of height value, so we only need vec2.)
+		
+	vector of position and  point1, glm::vec2 vector1 = position - point1;
+	vector of point2 and point1, glm::vec2 vector2 = point2 - point1;
+	// A . B = ||A|| * ||B|| * cos(theta) 
+	angle between vec1 & vec2, GLfloat theta = arccos(glm::dot(vector1, vector2) / (vector1 * vector2));
+	//check position's perpendicular position towards the line consists of point1 & point2
+	//left side || right side
+	if((theta > 90 degree || ((vector1 * cos(theta)) > vector2))
+	{
+		// no collision
+		return false;
+	}
+	else
+	{
+		//if the position is perpendicularly between point1 & point2
+		//then check the the position's perpendicular distance towards the line(point1,point2)
+		
+		GLfloat distance = vector1 * sin(theta);
+		
+		if(distance < offset)
+			//collision detected
+			return true;
+		else
+			return false;
+		
+	}
+

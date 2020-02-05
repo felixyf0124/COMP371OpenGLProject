@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Project.cpp" />
+    <ClCompile Include="objloader.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Shader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="objloader.hpp" />
+    <ClInclude Include="SOIL.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Collision.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\skybox_fragment.shader" />
+    <None Include="shaders\skybox_vertex.shader" />
+    <None Include="shaders\_3Dfragment.shader" />
+    <None Include="shaders\_3Dvertex.shader" />
+    <None Include="shaders\_2Dfragment.shader" />
+    <None Include="shaders\_2Dvertex.shader" />
+    <None Include="shaders\colorIDfragment.shader" />
+    <None Include="shaders\colorIDvertex.shader" />
+  </ItemGroup>
+</Project>
