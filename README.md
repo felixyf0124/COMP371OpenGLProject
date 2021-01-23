@@ -1,4 +1,5 @@
-# COMP371  Computer Graphics  Concordia University
+# COMP371  Computer Graphics - Apartment simulation
+Concordia University
 2017 summer
 
 ## OpenGLProject
